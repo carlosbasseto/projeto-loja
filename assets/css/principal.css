@@ -131,3 +131,57 @@ span{
 .video-link:hover{
     color: var(--color);
 }
+
+
+
+.option{
+    background-color: #333;
+    color: var(--color);
+  }
+
+  #categorias1{
+    width: 99px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+ 
+
+
+
+
+ 
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+ul li ul.dropdown li {
+    display: block;
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: var(--color);
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+
+
+ul li:hover ul.dropdown {
+    display: block;
+}

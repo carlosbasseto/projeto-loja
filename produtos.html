@@ -7,25 +7,229 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h2>Estilo de Rua</h2>
+  <header>
+    <h2>Estilo de Rua</h2>
+    <nav>
         <ul>
-            <li><a class="link-nav" href="principal.html">Home</a></li>
-            <li><a class="link-nav" href="produtos.html">Produtos</a></li>
-            <li><a class="link-nav" href="#contato">Contato</a></li>
-            <li><a class="link-nav" href="#carrinho"><img class="img-carrinho" src="assets/img/carrinho.png" alt=""></a></li>
-            <li><a class="sair" href="index.html">Sair</a></li>
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#">Produtos ▾</a>
+            <ul class="dropdown">
+                <li><a class="te" href="produtos.html">Tenis</a></li>
+                <li><a href="#">Camiseta</a></li>
+                <li><a href="#">Moletom</a></li>
+                <li><a href="#">Chinelo</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="index.html">Sair</a></li>
         </ul>
-    </header>
+    </nav>
+</header>
 
     <section class="produtos">
+        <div class="container">
         <div class="card">
             <img class="tenis" src="assets/img/tenis-1.png" alt="">
-            <p class="desc-produto">Tênos Air Jordan 1 High OG</p>
-            <p class="cor-produto">Vermelho</p>
-            <p class="valor-produto">R$ 3.090,00</p>
-        </div>
-    </section>
+            <p class="desc-produto">Tênis Air Jordan 1 High OG</p>
+             <div class="categoria-dropdown">
+                <div class="tentativa">
+                    <label for="categoria"> Cor:</label>
+                    <select id="categorias">
+                </div>
+                  <option value="1">Azul</option>
+                  <option value="2">Amarelo</option>
+                  <option value="3">Verde</option>
+                  <option value="4">Vermelho</option>
+                </select>
+              </div>
+            
 
+             
+              <div class="taxa-input">
+                <label for="taxa">Porcentagem de taxa:</label>
+                <input type="number" id="taxa" name="taxa" min="0" max="100">
+                <span>%</span>
+              </div>
+              <div class="valor-output">
+                <label for="valor">Valor a ser pago:</label>
+                <span id="valor">R$ 0,00</span>
+                    <div class="carrinho">
+                        <img class="carrinho" src="assets/img/carrinho.png" alt="">
+                    </div>    
+              </div>
+              </div>
+            
+        </div>
+        <div class="container">
+        <div class="card">
+            <img class="tenis" src="assets/img/tenis-2" alt="">
+            <p class="desc-produto">Jordan Retro Achat</p>
+             <div class="categoria-dropdown">
+                <div class="tentativa">
+                    <label for="categoria"> Cor:</label>
+                    <select id="categorias">
+                </div>
+                  <option value="1">Branco</option>
+                  <option value="2">Preto</option>
+                  <option value="3">Laranja</option>
+                  <option value="4">Rosa</option>
+                </select>
+              </div>
+            
+
+             
+              <div class="taxa-input">
+                <label for="taxa">Porcentagem de taxa:</label>
+                <input type="number" id="taxa" name="taxa" min="0" max="100">
+                <span>%</span>
+              </div>
+              <div class="valor-output">
+                <label for="valor">Valor a ser pago:</label>
+                <span id="valor">R$ 0,00</span>
+                    <div class="carrinho">
+                        <img class="carrinho" src="assets/img/carrinho.png" alt="">
+                    </div>    
+              </div>
+            
+            </div>
+        </div>
+        <div class="container">
+        <div class="card">
+            <img class="tenis" src="assets/img/tenis-3" alt="">
+            <p class="desc-produto">Tênis Air Jordan 1 High OG</p>
+             <div class="categoria-dropdown">
+                <div class="tentativa">
+                    <label for="categoria"> Cor:</label>
+                    <select id="categorias">
+                </div>
+                  <option value="1">Azul</option>
+                  <option value="2">Amarelo</option>
+                  <option value="3">Verde</option>
+                  <option value="4">Vermelho</option>
+                </select>
+              </div>
+            
+
+             
+              <div class="taxa-input">
+                <label for="taxa">Porcentagem de taxa:</label>
+                <input type="number" id="taxa" name="taxa" min="0" max="100">
+                <span>%</span>
+              </div>
+              <div class="valor-output">
+                <label for="valor">Valor a ser pago:</label>
+                <span id="valor">R$ 0,00</span>
+                    <div class="carrinho">
+                        <img class="carrinho" src="assets/img/carrinho.png" alt="">
+                    </div>    
+              </div>
+            
+            </div>
+        </div>
+        
+    </section>
+    <section class="produtos">
+    <div class="container">
+        <div class="card">
+            <img class="tenis" src="assets/img/tenis-1.png" alt="">
+            <p class="desc-produto">Tênis Air Jordan 1 High OG</p>
+             <div class="categoria-dropdown">
+                <div class="tentativa">
+                    <label for="categoria"> Cor:</label>
+                    <select id="categorias">
+                </div>
+                  <option value="1">Azul</option>
+                  <option value="2">Amarelo</option>
+                  <option value="3">Verde</option>
+                  <option value="4">Vermelho</option>
+                </select>
+              </div>
+            
+
+             
+              <div class="taxa-input">
+                <label for="taxa">Porcentagem de taxa:</label>
+                <input type="number" id="taxa" name="taxa" min="0" max="100">
+                <span>%</span>
+              </div>
+              <div class="valor-output">
+                <label for="valor">Valor a ser pago:</label>
+                <span id="valor">R$ 0,00</span>
+                    <div class="carrinho">
+                        <img class="carrinho" src="assets/img/carrinho.png" alt="">
+                    </div>    
+              </div>
+            
+            </div>
+        </div>
+        <div class="container">
+            <div class="card">
+                <img class="tenis" src="assets/img/tenis-1.png" alt="">
+                <p class="desc-produto">Tênis Air Jordan 1 High OG</p>
+                 <div class="categoria-dropdown">
+                    <div class="tentativa">
+                        <label for="categoria"> Cor:</label>
+                        <select id="categorias">
+                    </div>
+                      <option value="1">Azul</option>
+                      <option value="2">Amarelo</option>
+                      <option value="3">Verde</option>
+                      <option value="4">Vermelho</option>
+                    </select>
+                  </div>
+                
+    
+                 
+                  <div class="taxa-input">
+                    <label for="taxa">Porcentagem de taxa:</label>
+                    <input type="number" id="taxa" name="taxa" min="0" max="100">
+                    <span>%</span>
+                  </div>
+                  <div class="valor-output">
+                    <label for="valor">Valor a ser pago:</label>
+                    <span id="valor">R$ 0,00</span>
+                        <div class="carrinho">
+                            <img class="carrinho" src="assets/img/carrinho.png" alt="">
+                        </div>    
+                  </div>
+                
+                </div>
+            </div>
+            <div class="container">
+                <div class="card">
+                    <img class="tenis" src="assets/img/tenis-1.png" alt="">
+                    <p class="desc-produto">Tênis Air Jordan 1 High OG</p>
+                     <div class="categoria-dropdown">
+                        <div class="tentativa">
+                            <label for="categoria"> Cor:</label>
+                            <select id="categorias">
+                        </div>
+                          <option value="1">Azul</option>
+                          <option value="2">Amarelo</option>
+                          <option value="3">Verde</option>
+                          <option value="4">Vermelho</option>
+                        </select>
+                      </div>
+                    
+        
+                     
+                      <div class="taxa-input">
+                        <label for="taxa">Porcentagem de taxa:</label>
+                        <input type="number" id="taxa" name="taxa" min="0" max="100">
+                        <span>%</span>
+                      </div>
+                      <div class="valor-output">
+                        <label for="valor">Valor a ser pago:</label>
+                        <span id="valor">R$ 0,00</span>
+                            <div class="carrinho">
+                                <img class="carrinho" src="assets/img/carrinho.png" alt="">
+                            </div>    
+                      </div>
+                    
+                    </div>
+                </div>
+            </section>
+<script src="assets/js/produto.js"></script>
 </body>
 </html>
